@@ -14,10 +14,10 @@ variables:
 
 steps:
 - task: UseDotNet@2
-  displayName: 'Use .NET SDK 4.7.2'
+  displayName: 'Use .NET SDK 9.x'
   inputs:
     packageType: sdk
-    version: '4.7.2'
+    version: '9.x'
 
 - script: 'echo "$(buildConfiguration), $(Build.DefinitionName), $(Build.BuildId), $(Build.BuildNumber)" > buildinfo.txt'
   displayName: 'Write build info'
