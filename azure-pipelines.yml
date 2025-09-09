@@ -21,7 +21,7 @@ steps:
 
 - script: 'echo "$(buildConfiguration), $(Build.DefinitionName), $(Build.BuildId), $(Build.BuildNumber)" > buildinfo.txt'
   displayName: 'Write build info'
-  workingDirectory: DevOpsMcKinlayProject/wwwroot
+  workingDirectory: $(System.DefaultWorkingDirectory)
 
 - task: DotNetCoreCLI@2
   displayName: 'Restore project dependencies'
