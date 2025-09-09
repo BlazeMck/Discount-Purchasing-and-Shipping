@@ -1,0 +1,7 @@
+C:\Users\4800603681\source\repos\Discount Purchasing and Shipping\Discount Purchasing and Shipping\bin\Debug\Discount Purchasing and Shipping.exe.config
+C:\Users\4800603681\source\repos\Discount Purchasing and Shipping\Discount Purchasing and Shipping\bin\Debug\Discount Purchasing and Shipping.exe
+C:\Users\4800603681\source\repos\Discount Purchasing and Shipping\Discount Purchasing and Shipping\bin\Debug\Discount Purchasing and Shipping.pdb
+C:\Users\4800603681\source\repos\Discount Purchasing and Shipping\Discount Purchasing and Shipping\obj\Debug\Discount Purchasing and Shipping.csproj.AssemblyReference.cache
+C:\Users\4800603681\source\repos\Discount Purchasing and Shipping\Discount Purchasing and Shipping\obj\Debug\Discount Purchasing and Shipping.csproj.CoreCompileInputs.cache
+C:\Users\4800603681\source\repos\Discount Purchasing and Shipping\Discount Purchasing and Shipping\obj\Debug\Discount Purchasing and Shipping.exe
+C:\Users\4800603681\source\repos\Discount Purchasing and Shipping\Discount Purchasing and Shipping\obj\Debug\Discount Purchasing and Shipping.pdb
