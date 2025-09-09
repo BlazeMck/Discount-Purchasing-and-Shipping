@@ -13,12 +13,6 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- task: UseDotNet@2
-  displayName: 'Use .NET SDK 9.0.205'
-  inputs:
-    packageType: sdk
-    version: '9.0.205'
-
 - script: 'echo "$(buildConfiguration), $(Build.DefinitionName), $(Build.BuildId), $(Build.BuildNumber)" > buildinfo.txt'
   displayName: 'Write build info'
   workingDirectory: $(System.DefaultWorkingDirectory)
