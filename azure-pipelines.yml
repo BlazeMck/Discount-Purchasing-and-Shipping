@@ -19,6 +19,15 @@ steps:
     packageType: sdk
     version: '9.0.205'
 
+- task: CmdLine@2
+  inputs:
+    script: |
+      # Download the installer (if not already present on the agent)
+      # Invoke-WebRequest -Uri "https://download.microsoft.com/download/..." -OutFile "NDP472-KB4054530-x86-x64-AllOS-ENU.exe"
+
+      # Execute the silent installation
+      .\NDP472-KB4054530-x86-x64-AllOS-ENU.exe /q /norestart
+
 - script: 'echo "$(buildConfiguration), $(Build.DefinitionName), $(Build.BuildId), $(Build.BuildNumber)" > buildinfo.txt'
   displayName: 'Write build info'
   workingDirectory: $(System.DefaultWorkingDirectory)
